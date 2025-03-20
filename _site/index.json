@@ -1,0 +1,82 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "Calculator Documentation \uD83D\uDCD6 | calculator-docs",
+    "summary": "Calculator Documentation \uD83D\uDCD6 Welcome to the Calculator Documentation! This guide helps you install, use, and customize the calculator. \uD83D\uDCC2 Documentation Structure Download & Installation Learn how to install the calculator on your system. Working with Calculations Understand basic and advanced operations. Customization & Settings Configure settings, create shortcuts, and export/import data. \uD83D\uDE80 Getting Started To get started, clone the repository: git clone https://github.com/dubewarsagar/calculator-docs.git cd calculator-docs To build the documentation using DocFx, run: docfx docfx.json Then, open _site/index.html in your browser. \uD83E\uDD1D Contributing We welcome contributions! To contribute: Fork the Repository Create a Feature Branch git checkout -b feature/new-topic Make Changes & Commit git add . git commit -m \"Added new topic on XYZ\" Push & Create a Pull Request git push origin feature/new-topic Submit a Pull Request (PR) and wait for review. \uD83D\uDCDD Writing Guidelines Use Markdown syntax for documentation. Include admonitions (Tips, Notes, Warnings). Use code blocks for commands and examples. Add cross-references for navigation between pages. \uD83D\uDCE7 Contact For any queries, reach out via GitHub Issues. Happy documenting! ✨"
+  },
+  "docs/download-installation/index.html": {
+    "href": "docs/download-installation/index.html",
+    "title": "Download and installation | calculator-docs",
+    "summary": "Download and installation Welcome to the Download and Installation section. This section provides step-by-step guidance on downloading and setting up the Calculator application. \uD83D\uDCC2 Available Guides Installation Guide System Requirements Troubleshooting Follow the guides to set up the calculator on your system and start performing calculations!"
+  },
+  "docs/download-installation/installing.html": {
+    "href": "docs/download-installation/installing.html",
+    "title": "Installing the Calculator | calculator-docs",
+    "summary": "Installing the Calculator Note This guide explains how to install the calculator on Windows. Steps to Install Download the installer from official website. Run the setup and follow the on-screen instructions. Verify the installation by running: calculator.exe --version Once the installation is complete and you launch it, you should see the following confirmation screen:"
+  },
+  "docs/download-installation/system-requirements.html": {
+    "href": "docs/download-installation/system-requirements.html",
+    "title": "System Requirements | calculator-docs",
+    "summary": "System Requirements Important Before installing, ensure your system meets the minimum requirements. Minimum Requirements Component Requirement OS Windows 10/11 RAM 2 GB Storage 100 MB Processor 1 GHz or faster Recommended Requirements Component Requirement OS Windows 11 RAM 4 GB Storage 200 MB Processor 2 GHz or faster For installation steps, refer to Installing."
+  },
+  "docs/download-installation/troubleshooting.html": {
+    "href": "docs/download-installation/troubleshooting.html",
+    "title": "Troubleshooting Installation Issues | calculator-docs",
+    "summary": "Troubleshooting Installation Issues Warning If the calculator does not install correctly, try the following solutions. Common Issues 1. Installation Fails with Error Code 101 Solution: Run the installer as Administrator: right-click setup.exe -> Run as Administrator 2. Calculator Won't Launch Solution: Open the command line terminal and run: calculator.exe --debug If you see any error message, refer to the System Requirements"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | calculator-docs",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | calculator-docs",
+    "summary": "Introduction"
+  },
+  "docs/third-section/configuring-settings.html": {
+    "href": "docs/third-section/configuring-settings.html",
+    "title": "Configuring Calculator Settings | calculator-docs",
+    "summary": "Configuring Calculator Settings Tip The calculator allows customization through a configuration file. Modifying the Configuration File Users can change calculator settings by editing the config.json file. Example Configuration: { \"precision\": 4, \"theme\": \"dark\", \"history_enabled\": true } \"precision\": Number of decimal places in results. \"theme\": \"light\" or \"dark\" mode. \"history_enabled\": Enables or disables history tracking. Applying Changes After modifying config.json, restart the calculator: calculator.exe --reload-config Next Steps To set up custom shortcuts, see Custom Keyboard Shortcuts."
+  },
+  "docs/third-section/custom-shortcuts.html": {
+    "href": "docs/third-section/custom-shortcuts.html",
+    "title": "Custom Keyboard Shortcuts | calculator-docs",
+    "summary": "Custom Keyboard Shortcuts Note The calculator allows users to define custom shortcuts for quick calculations. Creating a Shortcut Shortcuts are stored in the shortcuts.json file. Example Shortcut Configuration: { \"shortcut\": \"ctrl+alt+a\", \"command\": \"add\", \"arguments\": [5, 3] } \"shortcut\": Key combination. \"command\": Operation (e.g., add, multiply). \"arguments\": Default numbers for the operation. Using Shortcuts Once set up, press Ctrl + Alt + A to automatically perform: calculator.exe add 5 3 # Output: 8 Next Steps To learn about exporting and importing calculations, see Exporting & Importing Data."
+  },
+  "docs/third-section/export-import.html": {
+    "href": "docs/third-section/export-import.html",
+    "title": "Exporting and Importing Data | calculator-docs",
+    "summary": "Exporting and Importing Data Important Users can export their calculation history to a file and restore it later. Exporting Calculations To save calculation history: calculator.exe export results.txt This creates a text file with past calculations. Importing Data To load calculations from a CSV file: calculator.exe import data.csv Ensure the CSV format matches: operation,value1,value2,result add,5,3,8 multiply,4,2,8 Next Steps For detailed calculator usage, see Basic Operations."
+  },
+  "docs/third-section/index.html": {
+    "href": "docs/third-section/index.html",
+    "title": "Understanding calculator concepts | calculator-docs",
+    "summary": "Understanding calculator concepts This section explores the underlying concepts of how the calculator works. \uD83D\uDCCC Topics Covered Configuring Settings – Learn about binary, decimal, and hexadecimal systems. Custom Shortcuts – Understand how calculations are rounded and how floating-point precision works. Import Export – Explore how mathematical functions like sine, cosine, and logarithms are implemented. Understanding these concepts will help you use the calculator more effectively."
+  },
+  "docs/working-with-calculations/advanced-functions.html": {
+    "href": "docs/working-with-calculations/advanced-functions.html",
+    "title": "Advanced Calculator Functions | calculator-docs",
+    "summary": "Advanced Calculator Functions Note The calculator supports advanced mathematical operations like square roots, exponentiation, and logarithms. Square Root To calculate the square root of a number: calculator.exe sqrt 25 # Output: 5 Exponentiation To raise a number to a power: calculator.exe pow 2 3 # Output: 8 Logarithm To calculate the logarithm of a number (base 10): calculator.exe log 1000 # Output: 3 Next Steps For error handling related to these functions, see Error Handling."
+  },
+  "docs/working-with-calculations/basic-operations.html": {
+    "href": "docs/working-with-calculations/basic-operations.html",
+    "title": "Basic Calculator Operations | calculator-docs",
+    "summary": "Let's go step by step. Here’s what you should add in the basic-operations.md file. Basic Calculator Operations Tip The calculator supports basic arithmetic operations: addition, subtraction, multiplication, and division. Performing Basic Operations Addition To add two numbers, use the following command: calculator.exe add 5 3 # Output: 8 Subtraction To subtract one number from another: calculator.exe subtract 10 4 # Output: 6 Multiplication To multiply two numbers: calculator.exe multiply 6 7 # Output: 42 Division To divide one number by another: calculator.exe divide 20 5 # Output: 4 Next Steps For more advanced calculations, see Advanced Functions."
+  },
+  "docs/working-with-calculations/error-handling.html": {
+    "href": "docs/working-with-calculations/error-handling.html",
+    "title": "Handling Errors in the Calculator | calculator-docs",
+    "summary": "Handling Errors in the Calculator Warning Incorrect input or unsupported operations can result in errors. This section helps you understand and resolve them. Common Errors and Solutions ❌ Invalid Input Error Message: Error: Invalid input. Please enter numbers only. Cause: Non-numeric input provided. Solution: Ensure you use numbers: calculator.exe add five 3 # ❌ Incorrect calculator.exe add 5 3 # ✅ Correct ❌ Division by Zero Error Message: Error: Cannot divide by zero. Cause: Attempting to divide by zero. Solution: Ensure the denominator is not zero: calculator.exe divide 10 0 # ❌ Incorrect calculator.exe divide 10 2 # ✅ Correct ❌ Exponentiation with Negative Base and Fractional Power Error Message: Error: Cannot compute negative base with a fractional exponent. Cause: Trying to calculate a negative base raised to a fractional exponent. Solution: Avoid fractional exponents for negative bases: calculator.exe pow -2 0.5 # ❌ Incorrect calculator.exe pow 2 0.5 # ✅ Correct Next Steps For basic operations, see Basic Calculator Operations. For advanced calculations, see Advanced Functions."
+  },
+  "docs/working-with-calculations/index.html": {
+    "href": "docs/working-with-calculations/index.html",
+    "title": "Working with calculations | calculator-docs",
+    "summary": "Working with calculations The Working with Calculations section covers everything you need to know about performing calculations using the Calculator. \uD83D\uDCD6 Topics Covered Basic Operations – Learn about addition, subtraction, multiplication, and division. Advanced Functions – Explore trigonometric, logarithmic, and exponential functions. Error Handling – Understand how the calculator handles errors like division by zero. Get started with calculations by selecting a topic above!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| calculator-docs",
+    "summary": "Calculator Documentation body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; } .container { width: 80%; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); border-radius: 8px; } .section { padding: 20px; margin: 20px 0; border-radius: 5px; } .intro { background: #3498db; color: white; } .getting-started { background: #2ecc71; color: white; } .features { background: #f1c40f; color: white; } .contribute { background: #e74c3c; color: white; } h2 { margin-top: 0; } a { color: white; font-weight: bold; text-decoration: underline; } Welcome to Calculator Documentation Learn how to install, use, and contribute to the calculator tool. Getting Started Find out how to download, install, and configure the calculator. Read Installation Guide Features Explore the powerful functions and capabilities of the calculator. Contribute Help improve the calculator by contributing to the documentation. View Contribution Guide"
+  }
+}

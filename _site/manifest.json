@@ -1,0 +1,215 @@
+{
+  "source_base_path": "E:/DocsRepos/calculator-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/download-installation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/download-installation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/download-installation/installing.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/download-installation/installing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/download-installation/system-requirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/download-installation/system-requirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/download-installation/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/download-installation/troubleshooting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/sample-screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/sample-screenshot.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/third-section/configuring-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/third-section/configuring-settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/third-section/custom-shortcuts.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/third-section/custom-shortcuts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/third-section/export-import.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/third-section/export-import.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/third-section/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/third-section/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/working-with-calculations/advanced-functions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/working-with-calculations/advanced-functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/working-with-calculations/basic-operations.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/working-with-calculations/basic-operations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/working-with-calculations/error-handling.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/working-with-calculations/error-handling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/working-with-calculations/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/working-with-calculations/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

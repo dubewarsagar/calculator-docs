@@ -1,0 +1,29 @@
+- name: Download and Installation
+  href: download-installation/index.md
+  items:
+    - name: Installing
+      href: download-installation/installing.md
+    - name: System Requirements
+      href: download-installation/system-requirements.md
+    - name: Troubleshooting
+      href: download-installation/troubleshooting.md
+
+- name: Working with Calculations
+  href: working-with-calculations/index.md
+  items:
+    - name: Basic Operations
+      href: working-with-calculations/basic-operations.md
+    - name: Advanced Functions
+      href: working-with-calculations/advanced-functions.md
+    - name: Error Handling
+      href: working-with-calculations/error-handling.md
+
+- name: Configurations and Settings
+  href: third-section/index.md
+  items:
+    - name: Configuring Calculator Settings
+      href: third-section/configuring-settings.md
+    - name: Custom Keyboard Shortcuts
+      href: third-section/custom-shortcuts.md
+    - name: Exporting and Importing Data
+      href: third-section/export-import.md

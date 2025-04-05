@@ -27,4 +27,3 @@ calculator.exe --reload-config
 
 ## Next Steps
 To set up custom shortcuts, see [Custom Keyboard Shortcuts](custom-shortcuts.md).
-```
